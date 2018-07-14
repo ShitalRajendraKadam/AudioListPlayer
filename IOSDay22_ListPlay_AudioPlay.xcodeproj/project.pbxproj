@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BA0B96F20A2E80500E63924 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA0B96E20A2E80500E63924 /* main.m */; };
+		6BA0B97220A2E80500E63924 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA0B97120A2E80500E63924 /* AppDelegate.m */; };
+		6BA0B97520A2E80500E63924 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA0B97420A2E80500E63924 /* ViewController.m */; };
+		6BA0B97820A2E80500E63924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA0B97620A2E80500E63924 /* Main.storyboard */; };
+		6BA0B97A20A2E80500E63924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA0B97920A2E80500E63924 /* Assets.xcassets */; };
+		6BA0B97D20A2E80500E63924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA0B97B20A2E80500E63924 /* LaunchScreen.storyboard */; };
+		6BA0B98520A2EC2200E63924 /* Morya Morya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6BA0B98420A2EC2200E63924 /* Morya Morya.mp3 */; };
+		6BA0B98720A2EC2C00E63924 /* Teri Meri Yaariyan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6BA0B98620A2EC2C00E63924 /* Teri Meri Yaariyan.mp3 */; };
+		6BA0B98920A2EC3A00E63924 /* Jai Shivaji.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6BA0B98820A2EC3A00E63924 /* Jai Shivaji.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BA0B96A20A2E80400E63924 /* IOSDay22_ListPlay_AudioPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDay22_ListPlay_AudioPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA0B96E20A2E80500E63924 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BA0B97020A2E80500E63924 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BA0B97120A2E80500E63924 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BA0B97320A2E80500E63924 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BA0B97420A2E80500E63924 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BA0B97720A2E80500E63924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BA0B97920A2E80500E63924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BA0B97C20A2E80500E63924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BA0B97E20A2E80500E63924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BA0B98420A2EC2200E63924 /* Morya Morya.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Morya Morya.mp3"; path = "../../../../Downloads/Morya Morya.mp3"; sourceTree = "<group>"; };
+		6BA0B98620A2EC2C00E63924 /* Teri Meri Yaariyan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Teri Meri Yaariyan.mp3"; path = "../../../../Downloads/Teri Meri Yaariyan.mp3"; sourceTree = "<group>"; };
+		6BA0B98820A2EC3A00E63924 /* Jai Shivaji.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Jai Shivaji.mp3"; path = "../../../../Downloads/Jai Shivaji.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BA0B96720A2E80400E63924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BA0B96120A2E80400E63924 = {
+			isa = PBXGroup;
+			children = (
+				6BA0B96C20A2E80400E63924 /* IOSDay22_ListPlay_AudioPlay */,
+				6BA0B96B20A2E80400E63924 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BA0B96B20A2E80400E63924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BA0B96A20A2E80400E63924 /* IOSDay22_ListPlay_AudioPlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BA0B96C20A2E80400E63924 /* IOSDay22_ListPlay_AudioPlay */ = {
+			isa = PBXGroup;
+			children = (
+				6BA0B97020A2E80500E63924 /* AppDelegate.h */,
+				6BA0B97120A2E80500E63924 /* AppDelegate.m */,
+				6BA0B98420A2EC2200E63924 /* Morya Morya.mp3 */,
+				6BA0B98620A2EC2C00E63924 /* Teri Meri Yaariyan.mp3 */,
+				6BA0B98820A2EC3A00E63924 /* Jai Shivaji.mp3 */,
+				6BA0B97320A2E80500E63924 /* ViewController.h */,
+				6BA0B97420A2E80500E63924 /* ViewController.m */,
+				6BA0B97620A2E80500E63924 /* Main.storyboard */,
+				6BA0B97920A2E80500E63924 /* Assets.xcassets */,
+				6BA0B97B20A2E80500E63924 /* LaunchScreen.storyboard */,
+				6BA0B97E20A2E80500E63924 /* Info.plist */,
+				6BA0B96D20A2E80500E63924 /* Supporting Files */,
+			);
+			path = IOSDay22_ListPlay_AudioPlay;
+			sourceTree = "<group>";
+		};
+		6BA0B96D20A2E80500E63924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BA0B96E20A2E80500E63924 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BA0B96920A2E80400E63924 /* IOSDay22_ListPlay_AudioPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA0B98120A2E80500E63924 /* Build configuration list for PBXNativeTarget "IOSDay22_ListPlay_AudioPlay" */;
+			buildPhases = (
+				6BA0B96620A2E80400E63924 /* Sources */,
+				6BA0B96720A2E80400E63924 /* Frameworks */,
+				6BA0B96820A2E80400E63924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSDay22_ListPlay_AudioPlay;
+			productName = IOSDay22_ListPlay_AudioPlay;
+			productReference = 6BA0B96A20A2E80400E63924 /* IOSDay22_ListPlay_AudioPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BA0B96220A2E80400E63924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Shital;
+				TargetAttributes = {
+					6BA0B96920A2E80400E63924 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6BA0B96520A2E80400E63924 /* Build configuration list for PBXProject "IOSDay22_ListPlay_AudioPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BA0B96120A2E80400E63924;
+			productRefGroup = 6BA0B96B20A2E80400E63924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BA0B96920A2E80400E63924 /* IOSDay22_ListPlay_AudioPlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BA0B96820A2E80400E63924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA0B97D20A2E80500E63924 /* LaunchScreen.storyboard in Resources */,
+				6BA0B98920A2EC3A00E63924 /* Jai Shivaji.mp3 in Resources */,
+				6BA0B98520A2EC2200E63924 /* Morya Morya.mp3 in Resources */,
+				6BA0B98720A2EC2C00E63924 /* Teri Meri Yaariyan.mp3 in Resources */,
+				6BA0B97A20A2E80500E63924 /* Assets.xcassets in Resources */,
+				6BA0B97820A2E80500E63924 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BA0B96620A2E80400E63924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA0B97520A2E80500E63924 /* ViewController.m in Sources */,
+				6BA0B97220A2E80500E63924 /* AppDelegate.m in Sources */,
+				6BA0B96F20A2E80500E63924 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BA0B97620A2E80500E63924 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BA0B97720A2E80500E63924 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BA0B97B20A2E80500E63924 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BA0B97C20A2E80500E63924 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BA0B97F20A2E80500E63924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BA0B98020A2E80500E63924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BA0B98220A2E80500E63924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IOSDay22_ListPlay_AudioPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shital.IOSDay22-ListPlay-AudioPlay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BA0B98320A2E80500E63924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IOSDay22_ListPlay_AudioPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shital.IOSDay22-ListPlay-AudioPlay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BA0B96520A2E80400E63924 /* Build configuration list for PBXProject "IOSDay22_ListPlay_AudioPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA0B97F20A2E80500E63924 /* Debug */,
+				6BA0B98020A2E80500E63924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA0B98120A2E80500E63924 /* Build configuration list for PBXNativeTarget "IOSDay22_ListPlay_AudioPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA0B98220A2E80500E63924 /* Debug */,
+				6BA0B98320A2E80500E63924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BA0B96220A2E80400E63924 /* Project object */;
+}
